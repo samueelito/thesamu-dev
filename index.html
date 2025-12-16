@@ -4,25 +4,64 @@
         <meta charset="UTF-8">
         <title>The Samu-DEV</title>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/styles.css">
+        <meta name="description" content="TheSamu-DEV | Desarrollador Web especializado en HTML, CSS, PHP y Laravel. Portafolio personal.">
+        <!-- Open Graph -->
+        <meta property="og:title" content="TheSamu-DEV | Desarrollador Web">
+        <meta property="og:description" content="Desarrollador Web especializado en HTML, CSS, PHP y Laravel. Portafolio y proyectos reales.">
+        <meta property="og:image" content="https://samueelito.github.io/thesamu-dev/assets/img/og-image.jpg">
+        <meta property="og:url" content="https://samueelito.github.io/thesamu-dev/">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="TheSamu-DEV">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="TheSamu-DEV | Desarrollador Web">
+        <meta name="twitter:description" content="Portafolio profesional de TheSamu-DEV. Desarrollo web moderno con PHP y Laravel.">
+        <meta name="twitter:image" content="https://samueelito.github.io/thesamu-dev/assets/img/og-image.jpg">
+
+        <meta name="keywords" content="desarrollador web, PHP, Laravel, HTML, CSS, Ecuador">
+        <meta name="author" content="TheSamu-DEV">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico">
+        <meta name="robots" content="index, follow">
+        
+
     </head>
     <body>
 
-        <header class="header">
+        <header class="header sticky">
             <div class="container">
-                <h1 class="logo">The Samu<span>-DEV</span></h1>
-                <nav>
+                <a href="#inicio" class="logo logo-animate">
+                    <img 
+                    src="assets/img/logo-sin-fondo-slogan.png"
+                    alt="Logo TheSamu-DEV desarrollador web"
+                    width="180"
+                    height="75"
+                    >
+
+                </a>
+
+                <nav class="nav">
                     <a href="#sobre">Sobre mí</a>
                     <a href="#proyectos">Proyectos</a>
                     <a href="#contacto">Contacto</a>
                 </nav>
+
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </header>
 
-        <section class="hero fade-up">
+        <section class="hero fade-up" id="inicio">
             <div class="container">
-                <h2>Desarrollo soluciones web modernas y funcionales</h2>
+                <h1>Desarrollo soluciones web modernas y funcionales</h1>
                 <p>
                     En The Samu-DEV convierto ideas en proyectos digitales completos, combinando diseño atractivo, lógica sólida y tecnologías actuales.
                 </p>
@@ -93,6 +132,8 @@
             >
             <img src="assets/img/whatsapp.svg" alt="WhatsApp">
         </a>
+
+        <script src="assets/js/main.js" defer></script>
 
 
     </body>
